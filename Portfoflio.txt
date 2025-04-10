@@ -1,0 +1,11 @@
+Things to inlcude in my portfolio.
+1. Brief(one line info  about me)
+2. My certificates an dachievements in images
+3. My Work experience[WRO and STEM robotics activities]
+4. My school details[aHighlight primary school till university and timeline]
+5. My social media accounts
+6. My recomendationns and Friend's comments
+
+
+TO-DO: 
+1. Create About-me text

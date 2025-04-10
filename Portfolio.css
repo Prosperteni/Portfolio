@@ -1,0 +1,312 @@
+/*Body styling*/
+body{
+    background-image: linear-gradient(to top, #fed6e3 0%, #92a8d1 100%);
+    font-family: "Work Sans", sans-serif;
+}
+
+/*Heading tags styling*/
+h1, h2, h3{
+    font-family: "Days One", sans-serif;
+    color: #444444; /* Dark Gray */
+}
+
+/*Link styling*/
+a{
+    text-decoration: none;
+}
+
+/*Navigation styling*/
+nav{
+    display: flex;
+    background-color: #92a8d1; /* Light Blue */
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    list-style: none;
+}
+
+nav ul li a{
+    font-size: 18px;
+    padding: 0 15px;
+    color: #FFFFFF; /* White */
+    transition: 0.2s;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    color: #6b7aa1; /* Lighter Blue */
+}
+
+/* Container styling */
+.container{
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Hero section styling */
+.hero{
+    padding-top: 120px;
+}
+
+.hero img {
+    border-style: none;
+    border-radius: 50%;
+    margin: 0 auto;
+    max-width: 440px;
+    display: block;
+}
+
+/* About me section styling */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 30px 0px 100px;
+}
+
+.Aboutme {
+    width: 75%;
+    max-width: 1100px;
+    height: auto;
+    background-color: #FFFFFF; /* White */
+    text-align: center;
+    padding: 40px 50px 70px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.4), -10px -10px 0px rgba(0, 0, 0, 0.4); 
+}
+
+.Aboutme-section {
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.Aboutme-img {
+    height: 450px;
+    width: 400px;
+    background-image: url(Images/download.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Aboutme-text {
+    height: auto;
+    width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+
+/* Projects section styling */
+#Projects {
+    padding: 5px;
+    margin: 5%;
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+
+.Projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.Projects p{
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    color: #444444; /* Dark Gray */
+}
+
+#Projects h2{
+    color: #444444; /* Dark Gray */
+}
+
+.Project-name{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.Project1, .Project2 {
+    width: 400px;
+    height: 400px;
+    background-color: #FFFFFF; /* White */
+    position: relative;
+    border-radius: 30px;
+    background-image: url("Images/download1.jpeg");
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.text{
+    color: #FFFFFF; /* White */
+    position: absolute;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    height: 30px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #444444; /* Dark Gray */
+    overflow: hidden;
+    transition: 0.4s;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.text:hover{
+    height: 120px;
+    color: #FFFFFF; /* White */
+    transition: 1s;
+    background-color: #6b7aa1; /* Lighter Blue */
+}
+
+.text h3{
+    margin-top: 3px;
+}    
+
+/* Button styling */
+.Button{
+    color: #FFFFFF; /* White */
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #444444; /* Dark Gray */
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.Button:hover{
+    color: #6b7aa1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Contact {
+    width: 100%;
+    height: auto;
+    pad: 75px 0 50px 0;
+    text-align: center;
+    background-color: #92a8d1; /* Light Blue */
+}
+
+.Contact h2{
+    padding-top: 20px;
+    color: #FFFFFF; /* White */
+}
+
+.Contact p{
+    margin-bottom: 45px;
+    color: #FFFFFF; /* White */
+}
+
+.Contact-form{
+    max-width: 880px;
+    display: flex;
+    text-align: left;
+    max-width: 1100px;
+    margin: 0 auto;
+    color: #FFFFFF; /* White */
+}
+
+.Contact-form label{
+    display: block;
+    margin-bottom: 9px;
+}
+
+/*Message styling */
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 60%; 
+}
+
+.message textarea{
+    border-radius: 5px;
+    border: 0px;
+}
+
+.Contact-details{
+    flex: 1;
+    margin-right: 50px;
+}
+
+.Contact-details input{
+    width: 100px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+/*Message button styling */
+.message button{
+    color: #92a8d1; /* Light Blue */
+    border: 0;
+    border-radius: 5px;
+    background-color: #ffffff; /* White */
+    width: 140px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 100px;
+}
+
+.message button:hover{
+    background-color: #444444; /* Dark Gray */
+    color: #FFFFFF; /* White */
+    transition: 1.2s;
+}
+
+/* Footer styling */
+footer{
+    height: 60px;
+    background-color: #444444;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+/*Social-media styling */
+.social-media{
+    font-size: 200%;
+    width: auto;
+    margin-left: auto;
+}
+
+.social-media a i{
+    color:white;
+    transition: 0.2s;
+}
+
+.social-media a i:hover{
+    color: lightblue;
+    transition: 0.2s;
+}
+
+.copyright{
+    color: white;
+}
