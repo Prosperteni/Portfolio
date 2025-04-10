@@ -18,7 +18,7 @@ a{
 /*Navigation styling*/
 nav{
     display: flex;
-    background-color: #92a8d1; /* Light Blue */
+    background-color: #ffffff; /* Light Blue */
     justify-content: center;
     position: fixed;
     width: 100%;
